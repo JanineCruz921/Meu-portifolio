@@ -1,0 +1,290 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #13131F;
+    margin: 0%;
+}
+
+#MenuHorizontal {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background-color: rgb(99, 12, 180);
+    width: 100%;
+    height: 78px;
+    margin-top: 8px;
+}
+
+.Logo {
+    height: 100%;
+    list-style: none;
+    font-size: larger;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    width: fit-content;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+.Logo h5 {
+    margin-top: -20px;
+}
+
+.LiBotões {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin-top: 0%;
+}
+
+.LiBotões button {
+    height: 35px;
+    width: 105px;
+    background-color: #13131F;
+    color: rgb(255, 255, 255);
+    margin-left: 3px;
+    margin-right: 3px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 900;
+    font-size: 13px;
+}
+
+button:hover {
+    background-color: rgb(128, 128, 128);
+    color: white;
+}
+
+button:active {
+    background-color: rgb(49, 94, 230);
+    color: white;
+}
+
+#PáginaHome {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.PáginaHomeLogo {
+    list-style: none;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.PáginaHomeBotões {
+    width: 450px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.PáginaHomeBotões button {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 200px;
+    height: 50px;
+    border-style: none;
+    border-radius: 8px;
+}
+
+.PáginaHomeBotões button:hover {
+    background-color: rgb(128, 128, 128);
+    color: white;
+}
+
+.PáginaHomeBotões button:active {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#PáginaBio {
+    background-color: aquamarine;
+    display: flex;
+    height: 500px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.Bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #13131F;
+    border-radius: 8px;
+    list-style: none;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2%;
+    width: 700px;
+    height: 400px;
+}
+
+#PáginaHabilidades {
+    background-color: #13131F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    color: white;
+}
+
+.íconeshabilidades {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.íconeshabilidades img {
+    width: 100px;
+    height: 100px;
+}
+
+.íconeshabilidades P {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    margin-top: -13px;
+}
+
+#PáginaProjetos {
+    background-color: rgb(75, 229, 178);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.GaleriaFrontEnd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+}
+
+.GaleriaFrontEnd h1 {
+    font-weight: 900;
+    font-size: 200%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.GaleriaFrontEnd img {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 50%;
+    margin-top: 2%;
+}
+
+.GaleriaFrontEnd p {
+    display: flex;
+    justify-content: start;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.GaleriaFrontEnd video {
+    width: 70%;
+    height: 50%;
+    margin-top: 1%;
+}
+
+#PáginaContatos {
+    background-color: #13131F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    color: white;
+}
+
+.íconescontatos {
+    list-style: none;
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.íconescontatos img {
+    width: 130%;
+    height: 130%;
+}
+
+.íconescontatos img:hover {
+    width: 180%;
+}
+
+.íconescontatos p {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    margin-top: -13px;
+}
+
+@media(max-width: 450px) {
+    .body {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #MenuHorizontal {
+        width: 108%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: start;
+    }
+    .LiBotões{
+        display: flex;
+        flex-direction: column;
+    }
+    #PáginaHome{
+        display: flex;
+        width: 100%;
+    }
+    .Bio{
+        display: flex;
+        justify-content: center;
+        margin-left: 8px;
+        width: 100%;
+        height: 100%;
+    }
+    #PáginaProjetos{
+        display: flex;
+        background-color: #13131F;
+    }
+}
