@@ -6,13 +6,14 @@ body {
 }
 
 #MenuHorizontal {
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: end;
     background-color: rgb(99, 12, 180);
     width: 100%;
-    height: 78px;
-    margin-top: 8px;
+    height: 70px;
+    margin-top: 0%;
 }
 
 .Logo {
@@ -40,6 +41,7 @@ body {
     justify-content: end;
     align-items: center;
     margin-top: 0%;
+    margin-right: 15px;
 }
 
 .LiBotões button {
@@ -73,6 +75,7 @@ button:active {
     justify-content: center;
     align-items: center;
     color: white;
+    margin-top: 50px;
 }
 
 .PáginaHomeLogo {
@@ -114,6 +117,11 @@ button:active {
     color: black;
 }
 
+.PáginaHomeBotões button:visited {
+    background-color:rgb(99, 12, 180);
+    color: rgb(255, 255, 255);
+}
+
 #PáginaBio {
     background-color: aquamarine;
     display: flex;
@@ -134,7 +142,7 @@ button:active {
     border-radius: 8px;
     list-style: none;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 2%;
     width: 700px;
@@ -159,15 +167,14 @@ button:active {
 }
 
 .íconeshabilidades img {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
 }
 
 .íconeshabilidades P {
     display: flex;
     justify-content: center;
     font-weight: 900;
-    margin-top: -13px;
 }
 
 #PáginaProjetos {
@@ -222,7 +229,7 @@ button:active {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 150px;
+    height: 90px;
     width: 100%;
     color: white;
 }
@@ -237,8 +244,8 @@ button:active {
 }
 
 .íconescontatos img {
-    width: 130%;
-    height: 130%;
+    width: 100%;
+    height: 100%;
 }
 
 .íconescontatos img:hover {
